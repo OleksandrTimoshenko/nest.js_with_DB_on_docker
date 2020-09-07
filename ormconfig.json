@@ -1,0 +1,11 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 54321,
+    "username": "unicorn_user",
+    "password": "my_strong_password",
+    "database": "rainbowDatabase",
+    "entities": ["dist/**/*.entity.js"],
+    "synchronize": true,
+    "logging": true
+}

@@ -1,0 +1,11 @@
+{
+    "type": "postgres",
+    "host": "rainbowdatabase.cyilekpf6ceu.eu-central-1.rds.amazonaws.com",
+    "port": 5432,
+    "username": "unicorn_user",
+    "password": "my_strong_password",
+    "database": "rainbowDatabase",
+    "entities": ["dist/**/*.entity.js"],
+    "synchronize": true,
+    "logging": true
+}
