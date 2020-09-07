@@ -1,8 +1,9 @@
 import { Injectable } from '@nestjs/common';
+import {Article} from "./article.entity";
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  getHello(): Promise<Article[]> {
+    return Article.find()
   }
 }
